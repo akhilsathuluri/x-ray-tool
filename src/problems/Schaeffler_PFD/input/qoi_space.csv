@@ -1,0 +1,6 @@
+Variables,Lower,Upper,Units,Description
+w_j,0,20,kg,total mass
+l_j,0,1,m,total length
+tau_j_max,0,100,Nm,joint level maximum torque
+tau_j_cont,0,100,Nm,joint level continuous torque
+power_loss,0,100,W,power loss

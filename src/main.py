@@ -159,10 +159,10 @@ class XRayTool:
                     self.solution_dv = pd.read_csv(self.problem_path+'/output/dv_solution_space.csv')
                     self.solution_qoi = pd.read_csv(self.problem_path+'/output/qoi_solution_space.csv')
                     # Load plot_data
-                    with open(self.problem_path+'/output/'+'plot_data.json','r') as f:
-                        plot_data = json.load(f)
-                    # Update the sample size from the saved data
-                    self.sample_size = plot_data['sample_size']
+                    # with open(self.problem_path+'/output/'+'plot_data.json','r') as f:
+                    #     plot_data = json.load(f)
+                    # # Update the sample size from the saved data
+                    # self.sample_size = plot_data['sample_size']
                     st.success('Saved solution loaded successfully')
                     st.session_state.updated_dv
 

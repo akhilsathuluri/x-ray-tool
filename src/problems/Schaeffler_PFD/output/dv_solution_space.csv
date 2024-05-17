@@ -1,0 +1,7 @@
+Variables,Lower,Upper,Units,Description
+N_m,50.32,85.32,-,Gear ratio
+N_peak,40.024,100.0,Nm,gear peak torque
+tau_m_cont,0.2064,0.6168,Nm,motor cont. torque
+tau_m_max,5.0,6.98,Nm,motor max torque.
+i_max,16.88,20.0,A,max current supply
+K_m,0.0304,0.0516,,motor constant
